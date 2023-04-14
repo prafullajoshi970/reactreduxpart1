@@ -1,3 +1,27 @@
+# Install Libraries and middleware
+
+  npm install redux;
+  npm install react-redux;
+
+  middleware to show store data:
+  npm install redux-logger
+
+# Create Two Folders 
+1 .component
+Input Component -> input and dispatch function 
+whatever we write inside input that data store inside one state and we call dispatch function with action of that data.
+
+2.Redux
+
+Store.js ->  import legacy_createStore from redux;->to create store we have to import this function.
+
+             then we have to import redux-logger -> to see redux store
+             
+Reducer.js -> reducer function has two things one is state-storeData ,action 
+            this reducer funtion is use to update and store data inside Redux-Store.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
